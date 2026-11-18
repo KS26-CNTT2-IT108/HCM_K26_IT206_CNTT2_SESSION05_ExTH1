@@ -1,0 +1,29 @@
+SESSION05
+[Bài thực hành 1] Lập kế hoạch tài chính cá nhân bằng Chain-of-Thought
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Kỹ năng PROMPTING với AI
+Họ và tên: LƯƠNG THANH THƯ
+
+Bạn là chuyên gia lập kế hoạch tài chính cá nhân. Thu nhập của tôi không ổn định, cần ngân sách chi tiết.
+
+DỮ LIỆU ĐẦU VÀO:
+- Thu nhập: [số tiền]
+- Chi phí cố định: [liệt kê, số tiền]
+- Các khoản nợ: [tên - số dư - mức trả tối thiểu/tháng]
+- Mục tiêu tiết kiệm: [tên - số tiền - thời hạn]
+
+Hãy suy nghĩ từng bước một và tính toán chi tiết trước khi đưa ra quyết định:
+- Bước 1: Tính thu nhập khả dụng = Thu nhập - Chi phí cố định bắt buộc.
+- Bước 2: Phân bổ khoản trả nợ tối thiểu cho từng khoản nợ.
+- Bước 3: Trích quỹ tiết kiệm theo tỷ lệ cam kết (tối thiểu 20%, gồm quỹ dự phòng).
+- Bước 4: Chia phần còn lại cho chi tiêu linh hoạt theo quy tắc 50/30/20 cải tiến.
+
+ĐẦU RA gồm 2 phần:
+- Phần 1 - Reasoning Steps: ghi công thức và số liệu trung gian của từng bước.
+- Phần 2 - Bảng Markdown với các cột: Hạng mục | Số tiền | Tỷ lệ % | Ghi chú.
+
+RÀNG BUỘC:
+- Hiển thị đầy đủ phép tính cộng/trừ/nhân/chia trung gian, không nhảy cóc ra kết quả.
+- Tổng tỷ lệ % trong bảng phải đúng 100%; tự kiểm tra lại trước khi trả lời.
+- Không dùng Pydantic hay code Python; chỉ tính toán bằng suy luận (Prompting logic).
